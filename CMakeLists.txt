@@ -5,7 +5,7 @@ project(turtlebot3_tourguide)
 
 set(CMAKE_CXX_FLAGS "-D_GLIBCXX_USE_CXX11_ABI=0 -lpthread")
 
-add_subdirectory(${FIREBASE_CPP_SDK_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/firebase-cpp-sdk/)
+# add_subdirectory(${FIREBASE_CPP_SDK_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/firebase-cpp-sdk/)
 set(firebase_libs firebase_auth firebase_database firebase_app firebase_analytics)
 
 include_directories(inc)
