@@ -1,0 +1,4 @@
+./firebase-cpp-sdk/
+./build/
+./vscode/
+./uWebSockets/
