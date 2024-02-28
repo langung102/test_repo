@@ -18,6 +18,10 @@ target_link_libraries(turtlebot3_firebase "${firebase_libs}")
 add_executable(test src/main.cpp)
 target_link_libraries(test turtlebot3_firebase)
 
+install(TARGETS test
+    DESTINATION /usr/bin
+)
+
 #build turltebot3_tourguide
 
 # find_package(ament_cmake REQUIRED)
