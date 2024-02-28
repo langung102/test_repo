@@ -6,7 +6,7 @@ project(turtlebot3_tourguide)
 set(CMAKE_CXX_FLAGS "-D_GLIBCXX_USE_CXX11_ABI=0 -lpthread")
 
 # add_subdirectory(${FIREBASE_CPP_SDK_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/firebase-cpp-sdk/)
-set(firebase_libs leveldb firebase_database firebase_app leveldb libuWS crypto)
+set(firebase_libs firebase_firestore firebase_storage firebase_functions firebase_database firebase_app leveldb z flatbuffers /media/minhlang102/Share/test/tmp-glibc/work/orangepi_5_plus-oe-linux/tourguide/1.0-r0/recipe-sysroot/usr/lib/deps/database/external/liblibuWS.a ssl crypto)
 
 include_directories(inc)
 
